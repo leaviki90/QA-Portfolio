@@ -17,7 +17,7 @@ Welcome to my QA portfolio repository.
 ## How to Use
 Navigate through the directories to review test cases, bug reports, and improvement proposals. Each file is documented in Markdown format for easy readability.
 
-# API Collection
+## API Collection
 
 For more details and to view the API collection used in these tests, please refer to the following link:
 
