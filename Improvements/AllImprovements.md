@@ -37,7 +37,8 @@ This document contains a series of suggestions for improvement aimed at optimizi
 - **Current**: The search input field on the Employee page looks different from the others, resulting in visual inconsistency.
 - **Requested**: Unify the design of all search input fields on the platform so that they all have the same visual identity.
 - **Reason**: By standardizing the appearance of the search input field, the visual coherence of the platform will be improved, making it easier for users to intuitively navigate and use the search, which contributes to a better user experience.
-![Search Input Field](QA-Portfolio\images\search-input-field.png)
+
+![Search Input Field](../images/search-input-field.png)
 
 ## Improvement 7
 
