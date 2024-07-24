@@ -1,9 +1,9 @@
-# API Test: Update a Post
+# API Test: Partial Update of a Post
 
 ## Request
 
 - **URL**: `{{baseUrl}}/posts/{{id}}`
-- **Method**: PUT
+- **Method**: PATCH
 
 ## Authorization
 
@@ -20,10 +20,7 @@
 
 ```json
 {
-    "userId": "3",
-    "id": "{{id}}",
-    "title": "{{$randomCatchPhrase}}",
-    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    "body": "Hello darkness my old friend"
 }
 ```
 
@@ -31,12 +28,12 @@
 
 ```javascript
 // Verify that the status code is 200 (OK)
-pm.test("Status code is 200", function () {
+pm.test("Verify status code is 200", function () {
     pm.response.to.have.status(200);
 });
 
-// Verify that the response time is less than 200ms
-pm.test("Response time is less than 200ms", function () {
-    pm.expect(pm.response.responseTime).to.be.below(200);
+// Verify that the response body contains the specified text
+pm.test("Verify that responseBody contains 'Hello darkness my old friend'", function () {
+    let responseBody = pm.response.text(); // Get the response body as text
+    pm.expect(responseBody).to.include("Hello darkness my old friend"); // Check if the body contains the specified text
 });
-

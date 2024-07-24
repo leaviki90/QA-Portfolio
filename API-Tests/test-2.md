@@ -1,49 +1,35 @@
-# API Test: Verifying creating a pet by dynamicly generated names
-
-## Description
-This API test script is designed to test the creation of a pet with a dynamically generated name.
+# API Test: Verify Deletion of a Post
 
 ## Request
 
-- **URL**: `{{baseUrl}}/pet`
-- **Method**: POST
+- **URL**: `{{baseUrl}}/posts/{{id}}`
+- **Method**: DELETE
 
-### Variables
-- `baseUrl`: The base URL of the API (`https://petstore.swagger.io/v2`).
-- `petName`: A randomly generated pet name.
-- `randomID`: A randomly generated ID.
+## Authorization
 
-### Body
-```json
-{
-  "name": "{{petName}}",
-  "photoUrls": [
-    "https://example.com/photo1",
-    "https://example.com/photo2"
-  ],
-  "id": "{{randomID}}",
-  "category": {
-    "id": "{{randomID}}",
-    "name": "{{petName}}"
-  },
-  "tags": [
-    {
-      "id": "{{randomID}}",
-      "name": "{{petName}}"
-    },
-    {
-      "id": "{{randomID}}",
-      "name": "{{petName}}"
-    }
-  ],
-  "status": "available"
-}
+- **Type**: Inherit from parent
 
-## Pre-request Script and Tests
+## Variables
 
-For detailed information on the pre-request script and tests, please refer to my [GitHub Gist](https://gist.github.com/leaviki90/4740220e5084ec0c64a44078d7ae041f).
+| Variable Name | Value                       |
+|---------------|-----------------------------|
+| `baseUrl`     | `https://jsonplaceholder.typicode.com`   |
+| `id`          | `33`                       |
 
+## Body
 
+- **Empty**: This DELETE request does not require a request body.
 
+## Tests
 
+```javascript
+// Test to verify that the response is an empty object
+pm.test("Response is an empty object", function () {
+    let responseBody = pm.response.json(); 
+    pm.expect(responseBody).to.be.an('object').that.is.empty; // Check if the body is an empty object
+});
 
+// Test to verify that the status code is 200
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
