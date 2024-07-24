@@ -9,7 +9,7 @@ This query retrieves the first name, last name, and patronus of characters who h
 SELECT fname, lname, patronus
 FROM characters
 WHERE NOT patronus = 'Unknown'
-  AND patronus IS NOT NULL;
+AND patronus IS NOT NULL;
   ```
 
 **Result Example**
