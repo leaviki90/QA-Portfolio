@@ -1,10 +1,7 @@
-# API Test: Pet Store
+# API Test: Verifying creating a pet by dynamicly generated names
 
 ## Description
-This API test script is designed to test the Pet Store API by performing the following actions:
-1. Creating a new pet by generating random names for pets.
-2. Logging in a user to get a token.
-3. Verifying various response attributes.
+This API test script is designed to test the creation of a pet with a dynamically generated name.
 
 ## Request
 
@@ -13,8 +10,6 @@ This API test script is designed to test the Pet Store API by performing the fol
 
 ### Variables
 - `baseUrl`: The base URL of the API (`https://petstore.swagger.io/v2`).
-- `username`: The username for logging in (`exampleUser`).
-- `password`: The password for logging in (`examplePass`).
 - `petName`: A randomly generated pet name.
 - `randomID`: A randomly generated ID.
 
@@ -44,50 +39,11 @@ This API test script is designed to test the Pet Store API by performing the fol
   "status": "available"
 }
 
-## Tests
+## Pre-request Script and Tests
 
-```javascript
+For detailed information on the pre-request script and tests, please refer to my [GitHub Gist](https://gist.github.com/leaviki90/4740220e5084ec0c64a44078d7ae041f).
 
-pm.test("Verify status code is 200", function () {
-    pm.response.to.have.status(200);
-});
 
-pm.test("Verify response is JSON", function () {
-    pm.response.to.be.json;
-});
 
-pm.test("Verify that response time is less than 200ms", function () {
-    pm.expect(pm.response.responseTime).to.be.below(200);
-});
-
-const response = pm.response.json();
-
-pm.test("Verify that response contains id", function () {
-    pm.expect(response).to.have.property('id');
-});
-
-pm.test("Verify pet status is available", function () {
-    pm.expect(response.status).to.eql("available");
-});
-
-pm.test("Verify that Pet name is correct", function () {
-    pm.expect(response.name).to.eql(pm.collectionVariables.get("petName"));
-});
-
-pm.test("Verify that response contains photoUrls", function () {
-    pm.expect(response.photoUrls).to.be.an('array').that.is.not.empty;
-});
-
-pm.test("Verify that response contains category", function () {
-    pm.expect(response).to.have.property('category');
-    pm.expect(response.category.name).to.eql(pm.collectionVariables.get("petName"));
-});
-
-pm.test("Verify that response contains tags", function () {
-    pm.expect(response.tags).to.be.an('array').that.is.not.empty;
-    response.tags.forEach(tag => {
-        pm.expect(tag.name).to.eql(pm.collectionVariables.get("petName"));
-    });
-});
 
 
