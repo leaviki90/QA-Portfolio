@@ -6,6 +6,7 @@ Welcome to my QA portfolio repository.
 - `TestCases/`: Contains detailed test cases for various features.
 - `BugReports/`: Includes reports on bugs found during testing.
 - `Improvements/`: Proposals for potential improvements to applications.
+- `SQL-Queries/`: Contains SQL queries and related documentation.
 
 ## How to Use
 Navigate through the directories to review test cases, bug reports, and improvement proposals. Each file is documented in Markdown format for easy readability.
