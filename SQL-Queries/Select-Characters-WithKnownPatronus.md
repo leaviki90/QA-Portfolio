@@ -7,7 +7,7 @@ This query retrieves the first name, last name, and patronus of characters who h
 
 ```sql
 SELECT fname, lname, patronus
-FROM Characters
+FROM characters
 WHERE NOT patronus = 'Unknown'
   AND patronus IS NOT NULL;
   ```
@@ -21,4 +21,3 @@ WHERE NOT patronus = 'Unknown'
 | Ron     | Weasley | Jack Russell Terrier   |
 | ...     | ...     | ...                    |
 
-![Search Input Field](../images/Select-Characters-with-Known-Patronus.png)
