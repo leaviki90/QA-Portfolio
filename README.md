@@ -22,3 +22,10 @@ Navigate through the directories to review test cases, bug reports, and improvem
 For more details and to view the API collection used in these tests, please refer to the following link:
 
 - [Postman API Collection](https://drive.google.com/file/d/1ld3T9cOL-0ymJJBNNm0GZpDTB7KLFD9s/view?usp=sharing)
+
+### Database Dumps
+
+To facilitate testing and exploration, database dumps are available. You can download the dumps from the following links:
+
+- [Characters Dump](https://drive.google.com/file/d/1aouJWJEOBXxIfR5RNekctdIimpgfzjo7/view?usp=sharing)
+- [Library Dump](https://drive.google.com/file/d/1hsHqN83engEs6HhtCEn2Ka3tQPk0e6ht/view?usp=sharing)
