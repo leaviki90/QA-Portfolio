@@ -25,7 +25,7 @@ the application. The store has shopping items.
 >
 > 3\. Click on “Moj novčanik”,
 >
-> 4\. Click on “Prodavnica”
+> 4\. Click on “Prodavnica”.
 
 **Expected** **Results:** The application should display an alert or
 indication that the internet connection has been lost, prompting the
@@ -63,9 +63,9 @@ connection when starting the application. The store has shopping items.
 >
 > 2\. Click on “Prodavnica”,
 >
-> 3\. Disable the Wi-Fi connection on the device.
+> 3\. Disable the Wi-Fi connection on the device,
 >
-> 4\. Manually refresh the "Store" screen.
+> 4\. Manually refresh the "Store" screen,
 >
 > 5\. Minimize the app and reopen it.
 
@@ -99,8 +99,9 @@ application.
 
 **Steps** **to** **Reproduce:**
 
-> 1\. Open the application in landscape mode, 2\. Rotate the device to
-> portrait mode.
+> 1\. Open the application in landscape mode,
+>
+> 2\. Rotate the device to portrait mode.
 
 **Expected** **Results**: The layout should dynamically adjust to the
 new screen size after rotation, maintaining proper alignment and
