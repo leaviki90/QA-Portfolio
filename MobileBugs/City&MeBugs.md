@@ -21,8 +21,9 @@ the application. The store has shopping items.
 
 > 1\. Launch the application,
 >
-> 2\. Disable the Wi-Fi connection on the device, 3\. Click on “Moj
-> novčanik”,
+> 2\. Disable the Wi-Fi connection on the device,
+>
+> 3\. Click on “Moj novčanik”,
 >
 > 4\. Click on “Prodavnica”
 
@@ -58,10 +59,13 @@ connection when starting the application. The store has shopping items.
 
 **Steps** **to** **Reproduce:**
 
-> 1\. Click on “Moj novčanik”, 2\. Click on “Prodavnica”,
+> 1\. Click on “Moj novčanik”,
 >
-> 3\. Disable the Wi-Fi connection on the device. 4\. Manually refresh
-> the "Store" screen.
+> 2\. Click on “Prodavnica”,
+>
+> 3\. Disable the Wi-Fi connection on the device.
+>
+> 4\. Manually refresh the "Store" screen.
 >
 > 5\. Minimize the app and reopen it.
 
