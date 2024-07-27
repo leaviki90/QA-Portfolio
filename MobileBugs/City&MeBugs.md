@@ -41,6 +41,8 @@ any items).
 **Attachment:**
 [empty-store-when-no-wifi.mp4](https://drive.google.com/file/d/1CULarPkXgBFttGxQ7r6KfM8iAycwVxN3/view?usp=drive_link)
 
+------------------------------------------------------------------------------------------------------------------------
+
 **Bug** **2:**
 
 **Title:** Store items remain displayed when WiFi is disconnected
@@ -82,6 +84,8 @@ do not update the items to reflect the current connection status.
 
 **Attachment:**
 [store-items-stay-displayed-when-no-wifi.mp4](https://drive.google.com/file/d/1Ce-HKeXJYE3VSZ-nrNZN4XxxTex6M7HB/view?usp=drive_link)
+
+------------------------------------------------------------------------------------------------------------------------
 
 **Bug** **3:**
 
