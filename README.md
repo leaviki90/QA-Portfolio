@@ -15,7 +15,7 @@ Welcome to my QA portfolio repository.
 - `SQL-Queries/`: Contains SQL queries and related documentation.
 
 ## How to Use
-Navigate through the directories to review test cases, bug reports, and improvement proposals. Each file is documented in Markdown format for easy readability.
+Navigate through the directories to review test cases, bug reports, and improvement proposals. Each file is documented in Markdown format for easy readability. Additionally, there are sections for SQL queries and API testing documentation.
 
 ## API Collection
 
