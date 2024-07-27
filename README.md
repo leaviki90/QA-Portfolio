@@ -7,11 +7,11 @@ Welcome to my QA portfolio repository.
 - `BugReports/`: Includes reports on bugs found during testing.
 - `Improvements/`: Proposals for potential improvements to applications.
 - `API-Tests/`: Contains tests for various API requests:
-  - `GET`: Test for retrieving resources.
-  - `PUT`: Test for updating resources.
-  - `POST`: Test for creating resources.
   - `DELETE`: Test for deleting resources.
+  - `GET`: Test for retrieving resources.
   - `PATCH`: Test for partially updating resources.
+  - `POST`: Test for creating resources.
+  - `PUT`: Test for updating resources.
 - `SQL-Queries/`: Contains SQL queries and related documentation.
 
 ## How to Use
