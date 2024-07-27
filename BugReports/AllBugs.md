@@ -1,5 +1,5 @@
 <!-- # Bug Reports -->
-<!-- Mobile bugs for the City&Me application are temporarily displayed here until the bugs for the Benefiti.rs website are approved for public viewing. -->
+> **Note:** Mobile bugs for the City&Me application are temporarily displayed here until the bugs for the Benefiti.rs website are approved for public viewing.
 
 **BUGS:
 During the mobile testing process, the production version of the City & Me application was used. Below are detailed examples of bugs identified and documented:**
