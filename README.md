@@ -24,6 +24,7 @@ Navigate through the directories to review test cases, bug reports, and improvem
 For more details and to view the API collection used in these tests, please refer to the following link:
 
 - [Postman API Collection](https://drive.google.com/file/d/1ld3T9cOL-0ymJJBNNm0GZpDTB7KLFD9s/view?usp=sharing)
+- [Postman API Collection](https://fcfcf3.postman.co/workspace/Workspace~9d7e9f53-134f-41b6-8cb0-1c78c409108d/collection/20065340-f8e5f53b-4ce9-497c-8c9b-c717b1c8b3d8?action=share&creator=20065340)
 
 ### Database Dumps
 
