@@ -3,19 +3,21 @@
 Welcome to my QA portfolio repository.
 
 ## Directory Structure
-- `TestCases/`: Contains detailed test cases for various features.
-- `BugReports/`: Includes reports on bugs found during testing.
-- `Improvements/`: Proposals for potential improvements to applications.
-- `API-Tests/`: Contains tests for various API requests:
+- `API-Tests/`: Contains tests for various API requests.
   - `GET`: Test for retrieving resources.
   - `PUT`: Test for updating resources.
   - `POST`: Test for creating resources.
   - `DELETE`: Test for deleting resources.
   - `PATCH`: Test for partially updating resources.
+- `BugReports/`: Includes reports on bugs found during testing.
+- `images/`: Directory for storing images related to the project.
+- `Improvements/`: Proposals for potential improvements to applications.
+- `MobileBugs/`: Contains bug reports specific to the mobile application City & Me.
 - `SQL-Queries/`: Contains SQL queries and related documentation.
+- `TestCases/`: Contains detailed test cases for various features.
 
 ## How to Use
-Navigate through the directories to review test cases, bug reports, and improvement proposals. Each file is documented in Markdown format for easy readability. Additionally, there are sections for SQL queries and API testing documentation.
+Navigate through the directories to review test cases, bug reports, and improvement proposals. Additionally, there are sections for SQL queries, API testing documentation, and City & Me mobile bugs. Each file is documented in Markdown format for easy readability.
 
 ## API Collection
 
