@@ -10,11 +10,13 @@ Welcome to my QA portfolio repository.
   - `POST`: Test for creating resources.
   - `PUT`: Test for updating resources.
 - `BugReports/`: Includes reports on bugs found during testing.
-- `images/`: Directory for storing images related to the project.
 - `Improvements/`: Proposals for potential improvements to applications.
 - `MobileBugs/`: Contains bug reports specific to the mobile application City & Me.
 - `SQL-Queries/`: Contains SQL queries and related documentation.
 - `TestCases/`: Contains detailed test cases for various features.
+- `images/`: Directory for storing images related to the project.
+
+
 
 ## How to Use
 Navigate through the directories to review test cases, bug reports, and improvement proposals. Additionally, there are sections for SQL queries, API testing documentation, and City & Me mobile bugs. Each file is documented in Markdown format for easy readability.
